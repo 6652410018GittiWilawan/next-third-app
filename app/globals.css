@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+/* สำหรับเบราว์เซอร์ Chromium (Chrome, Edge, Opera) และ Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; /* เพื่อลบพื้นที่ว่างที่อาจเหลืออยู่ */
+}
